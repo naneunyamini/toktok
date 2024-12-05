@@ -26,7 +26,7 @@ public class WaitingForm extends JFrame {
         Container c = getContentPane();
 
         // 채팅방 입장 버튼 생성 및 이벤트 핸들러 등록
-        RoundedButton enterRoomButton = new RoundedButton("채팅방 입장");
+        RoundedButton enterRoomButton = new RoundedButton("채팅방 입장스");
         chatRoomEnterEvent = new ChatRoomEnterEvent(this, socket, loggedInUserName);
         enterRoomButton.addActionListener(chatRoomEnterEvent);
 
